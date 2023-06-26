@@ -1,0 +1,26 @@
+<html>
+<body>
+    <h3>Modelo Predictivo de CS-GO</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="team">Equipo: </label>
+    <select id="team" name="team">
+        <option value="1">Terrorista</option>
+        <option value="2">Contraterrorista</option>
+    </select>
+    <br>
+    <label for="equipvalue">Valor de equipamiento:</label><br>
+    <input type="number" id="equipvalue" name="equipvalue"><br>
+    <span><i>Usar múltiplo de 50 [0 - 8850]</i></span><br>
+    <br>
+    <label for="teamequipvalue">Valor de equipamiento de Equipo:</label><br>
+    <input type="number" id="teamequipvalue" name="teamequipvalue"><br>
+    <span><i>Usar múltiplo de 50 [0 - 8850]</i></span><br>
+    <br>
+    <br>
+    <input type="submit" value="Predecir">
+  </form>
+</div>
+</body>
+</html>
