@@ -12,7 +12,7 @@ def index():
     return flask.render_template('index.html')
 
 def ValuePredictor(data):
-    model = pickle.load(open('checkpoints\model.pkl', 'rb'))
+    model = pickle.load(open('checkpoints\\model.pkl', 'rb'))
     print(data)
     prediction = model.predict(data)
 
